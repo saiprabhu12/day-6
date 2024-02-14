@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>signup</h1>
+    <form>
+        <label for="name">name</label>
+        <input type="text" name="name" placeholder="enter the last name">
+    <br><br><label for="num">number please</label>
+    <input type="number" id="num" name="number" pattern="(0-9){10}" minlength="10">
+    <br><br><label for="pswd">password:</label>
+    <input type="password" id="pswd" name="paswd">
+    <br><br><label for="mail">email</label>
+    <input type="email" id="mail" name="mail">
+    <input type="submit" formaction="./login.html" value="login"/>
+
+    </form>
+</body>
+</html>
